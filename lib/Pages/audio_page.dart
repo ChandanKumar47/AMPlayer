@@ -8,9 +8,15 @@ class AudioPage extends StatefulWidget {
 class _AudioPageState extends State<AudioPage> {
   @override
   Widget build(BuildContext context) {
-    return Center(
-      child: Container(
-        child: Text('Audio Page'),
+    return Container(
+      height: double.infinity,
+      width: double.infinity,
+      decoration: BoxDecoration(color: Colors.black87),
+      child: Center(
+        child: Text(
+          'Audio Page',
+          style: TextStyle(color: Colors.white),
+        ),
       ),
     );
   }
