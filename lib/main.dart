@@ -1,12 +1,10 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'Components/bottomNavBar.dart';
 import 'Pages/video_page.dart';
 import 'Pages/audio_page.dart';
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 
-BottumNavBar bottumNavBar = BottumNavBar();
 
 void main() {
   runApp(MaterialApp(
@@ -23,7 +21,6 @@ class MainPage extends StatefulWidget {
 }
 
 class _MainPageState extends State<MainPage> {
-  BottumNavBar bottumNavBar = BottumNavBar();
   final _pageOption = [
     VideoPage(),
     AudioPage(),
