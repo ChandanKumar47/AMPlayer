@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'Components/bottomNavBar.dart';
+//import 'Components/bottomNavBar.dart';
 import 'Pages/video_page.dart';
 import 'Pages/audio_page.dart';
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
