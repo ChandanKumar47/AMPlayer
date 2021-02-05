@@ -1,4 +1,4 @@
-# amplayer
+# AMPlayer
 
 A new Flutter application.
 
