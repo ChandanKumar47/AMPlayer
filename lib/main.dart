@@ -8,7 +8,6 @@ import 'Pages/video_page.dart';
 import 'Pages/audio_page.dart';
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 
-
 void main() {
   runApp(MaterialApp(
     title: "A M P l a y e r",
