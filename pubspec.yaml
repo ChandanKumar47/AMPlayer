@@ -18,6 +18,7 @@ dependencies:
   video_player: ^1.0.1
   flutter_vlc_player: ^4.0.3
   curved_navigation_bar: ^0.3.7
+  youtube_player_flutter: ^7.0.0+7
 
 dev_dependencies:
   flutter_test:

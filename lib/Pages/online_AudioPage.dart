@@ -1,12 +1,11 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-class FileExplorer extends StatefulWidget {
+class OnlineAudioPage extends StatefulWidget {
   @override
-  _FileExplorerState createState() => _FileExplorerState();
+  _OnlineAudioPageState createState() => _OnlineAudioPageState();
 }
 
-class _FileExplorerState extends State<FileExplorer> {
+class _OnlineAudioPageState extends State<OnlineAudioPage> {
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -15,7 +14,7 @@ class _FileExplorerState extends State<FileExplorer> {
       decoration: BoxDecoration(color: Colors.black87),
       child: Center(
         child: Text(
-          'Access your Storage from here ',
+          'Online Audio Page',
           style: TextStyle(color: Colors.white),
         ),
       ),

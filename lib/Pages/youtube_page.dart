@@ -1,12 +1,11 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-class FileExplorer extends StatefulWidget {
+class OnlineVideoPage extends StatefulWidget {
   @override
-  _FileExplorerState createState() => _FileExplorerState();
+  _OnlineVideoPageState createState() => _OnlineVideoPageState();
 }
 
-class _FileExplorerState extends State<FileExplorer> {
+class _OnlineVideoPageState extends State<OnlineVideoPage> {
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -15,7 +14,7 @@ class _FileExplorerState extends State<FileExplorer> {
       decoration: BoxDecoration(color: Colors.black87),
       child: Center(
         child: Text(
-          'Access your Storage from here ',
+          'Online Video Page',
           style: TextStyle(color: Colors.white),
         ),
       ),

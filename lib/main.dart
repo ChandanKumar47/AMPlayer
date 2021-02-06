@@ -1,3 +1,6 @@
+import 'package:amplayer/Pages/online_AudioPage.dart';
+import 'package:amplayer/Pages/storage_page.dart';
+import 'package:amplayer/Pages/youtube_page.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
@@ -23,7 +26,10 @@ class MainPage extends StatefulWidget {
 class _MainPageState extends State<MainPage> {
   final _pageOption = [
     VideoPage(),
+    OnlineVideoPage(),
+    FileExplorer(),
     AudioPage(),
+    OnlineAudioPage()
   ];
 
   @override
