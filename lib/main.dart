@@ -1,4 +1,4 @@
-import 'package:amplayer/Pages/online_AudioPage.dart';
+import 'package:amplayer/Pages/ImageGalleryPage.dart';
 import 'package:amplayer/Pages/storage_page.dart';
 import 'package:amplayer/Pages/youtube_page.dart';
 import 'package:flutter/cupertino.dart';
@@ -29,7 +29,7 @@ class _MainPageState extends State<MainPage> {
     OnlineVideoPage(),
     FileExplorer(),
     AudioPage(),
-    OnlineAudioPage()
+    ImageGalleryPage()
   ];
 
   @override

@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-class OnlineAudioPage extends StatefulWidget {
+class ImageGalleryPage extends StatefulWidget {
   @override
-  _OnlineAudioPageState createState() => _OnlineAudioPageState();
+  _ImageGalleryPageState createState() => _ImageGalleryPageState();
 }
 
-class _OnlineAudioPageState extends State<OnlineAudioPage> {
+class _ImageGalleryPageState extends State<ImageGalleryPage> {
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -14,7 +14,7 @@ class _OnlineAudioPageState extends State<OnlineAudioPage> {
       decoration: BoxDecoration(color: Colors.black87),
       child: Center(
         child: Text(
-          'Online Audio Page',
+          'ImageGallery',
           style: TextStyle(color: Colors.white),
         ),
       ),
